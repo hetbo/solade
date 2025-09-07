@@ -1,16 +1,16 @@
 {
-    "name": "blade-organization/blade-heroicons",
-    "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Heroicons", "Laravel"],
-    "homepage": "https://github.com/blade-organization/blade-heroicons",
+    "name": "hetbo/solade",
+    "description": "Use Solar Icons Pack With Ease",
+    "keywords": ["Blade", "Laravel"],
+    "homepage": "https://github.com/hetbo/solade",
     "license": "MIT",
     "authors": [
         {
-            "name": "Blade Developer"
+            "name": "Hosein Safdel"
         }
     ],
     "require": {
-        "php": "^8.4",
+        "php": "^8.2",
         "blade-ui-kit/blade-icons": "^1.6",
         "illuminate/support": "^12.0"
     },
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "Hetbo\\Solade\\": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "Hetbo\\Solade\\SoladeServiceProvider"
             ]
         }
     },
